@@ -105,7 +105,10 @@ text-align: center;
 }
 
 /* main section style here ` */
-
+.grid-heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
 .grid-gallery{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -150,9 +153,22 @@ text-decoration: none;
     margin-right: 100px;
 }
 
+/* main lower */
 
+.feature-content-heading{
+color: #0A0826;
+font-family: Poppins;
+font-size: 2.375rem;
+font-weight: 700;
+margin-bottom: 0px;
+}
 
-
+.main-lower{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:50px;
+}
 
 
 
@@ -177,14 +193,29 @@ text-decoration: none;
         margin: 0;
         padding: 0;
     }
+    .main-lower{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+    }
+    .feature-content{
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0px;
+        /* border: 1px solid saddlebrown; */
+        
+    }
     .sec-one-img{
         margin-top: 50px;
         padding:20px;
         background-position: center;
-        width: 50%;
+        
     }
     .sec-one-lft-h,.primary-paragrph,.button-one{
-        border:1px solid aquamarine;
         text-align: center;
     }
     .sec-one-lft{
@@ -214,7 +245,7 @@ text-decoration: none;
 
 @media screen and (min-width:576px) and (max-width:960px)  {
    
-    nav, nav ul, .sec-one{
+    nav, nav ul, .sec-one,.main-lower{
         flex-direction: column;
         gap:0px;
         justify-content: center;
@@ -229,7 +260,7 @@ text-decoration: none;
         width: 60%;
     }
     .sec-one-lft-h,.primary-paragrph,.button-one{
-        border:1px solid aquamarine;
+        
         text-align: center;
     }
     .sec-one-lft{
@@ -249,4 +280,17 @@ text-decoration: none;
         margin-right: 0px;
         margin-top: 20px;
     }
-}
+    .main-lower{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding:10px;
+
+    }
+    .feature-content{
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0px;}
