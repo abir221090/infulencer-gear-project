@@ -1,0 +1,135 @@
+
+/* shared style */
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin:0 0;     
+    padding:0;
+    box-sizing: border-box;
+}
+.body-container{
+    margin:0 50px;
+}
+
+/* header style */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+nav ul{
+    display: flex;
+    gap:40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+list-style: none;
+color: #3A3A3A;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 600;
+}
+
+.nav-heading{   
+color: #3A3A3A;
+font-family: Poppins;
+font-size: 1.5rem;
+font-weight: 700;
+}
+
+
+/* section one style */
+.sec-one{
+    display: flex;
+    justify-content: space-between;
+    gap:px;
+    align-items: center;
+}
+.sec-one-img{
+    background-image:url('Circle design.svg');
+    background-repeat: no-repeat;
+    padding:30px;
+}
+
+.sec-one-lft{
+    width: 40%;
+}
+.sec-one-lft-h{
+color: #3A3A3A;
+font-family: Poppins;
+font-size: 3.25rem;
+font-weight: 700;
+padding:0px;
+margin: 0px;
+}
+.primary-paragrph{
+color: #3A3A3A;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 600;
+margin-top: 0px;
+}
+
+.button-one{
+padding:10px 20px 10px 20px ;
+border:0px;
+border-radius: 41px;
+background: #E02C6D;
+color:#FFFFFF;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+text-align: center;
+}
+.button-one i{
+    text-align: center;
+    margin-left: 10px;
+}
+
+/* section two style */
+.sec-two{
+    border: 1px solid saddlebrown;
+    margin:70px 100px;
+    padding:25px;
+}
+.sponsors{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query  style here*/
+
+@media screen {max-width: 576px;
+    
+}
