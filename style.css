@@ -9,7 +9,9 @@ body{
     padding:0;
     box-sizing: border-box;
 }
-
+.body-container{
+    margin:0 50px;
+}
 
 /* header style */
 nav{
@@ -168,14 +170,41 @@ margin-bottom: 0px;
     justify-content:space-between;
     align-items: center;
     gap:50px;
+    margin-bottom: 100px;
 }
 
 
+/* footer-section-style */
+footer{
+    background-color: #0A0826;
+    padding:50px 50px;
+}
+.footer-content{
+    text-align: center;
+}
 
+.footer-content-heading{
+color: #FFF;
+font-family: Poppins;
+font-size: 1.5rem;
+font-weight: 700;
+}
 
-
-
-
+.footer-content-para{
+color:#D9DBE1;
+font-family: Poppins;
+font-size: .875rem;
+font-weight: 700;
+}
+.fa-brands{
+    color:#FFFFFF;
+}
+footer .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
 
 
 
