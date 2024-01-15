@@ -128,11 +128,27 @@ font-family: Inter;
 font-size: .875rem;
 font-weight: 700;
 }
+.see-more-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 55PX;
 
+}
+.see-more{
+color: rgba(224, 44, 109, 0.87);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+text-decoration: none;
+}
 
-
-
-
+.see-more-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 55px;
+    margin-right: 100px;
+}
 
 
 
@@ -182,6 +198,12 @@ font-weight: 700;
     .grid-gallery{
         grid-template-columns: repeat(1,1fr);
     }
+    .see-more-button{
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        margin-top: 10px;
+    }
 }
 
 
@@ -220,5 +242,11 @@ font-weight: 700;
     }
     .grid-gallery{
         grid-template-columns: repeat(2,1fr);
+    }
+    .see-more-button{
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        margin-top: 20px;
     }
 }
